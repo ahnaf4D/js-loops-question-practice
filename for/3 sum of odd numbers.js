@@ -16,3 +16,21 @@ Display sum of all the even numbers from 51 to 85.
  */
 
 /*programming hero*/
+
+let oddSum = 0;
+for (let i = 91; i <= 129; i++) {
+    if (i % 2 !== 0) {
+        oddSum += i;
+    }
+}
+console.log(`Sum from 91-129 is ${oddSum}`);
+
+console.log(`========================= {Programming Hero} ============`)
+
+let evenSum = 0;
+for (let i = 51; i < 85; i++) {
+    if (i % 2 === 0) {
+        evenSum += i;
+    }
+}
+console.log(`Sum from 51-85 is ${evenSum}`);
